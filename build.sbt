@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
-Jenkins Packaging: edit example-app/build.sbt
+
 enablePlugins(DebianPlugin)
 maintainer := “e_langmaack@hotmail.com“
 packageSummary := "My custom package"
